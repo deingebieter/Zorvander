@@ -1,0 +1,12 @@
+/* Bildgrößenprobleme beheben */
+.about-image img, 
+.service-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* FAQ-Antwort-Höhe erhöhen, um mehr Text anzuzeigen */
+.faq-item.active .faq-answer {
+    max-height: 1000px; /* von 500px auf 1000px erhöht */
+}
